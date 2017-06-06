@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0f6f1d7b-41a7-426e-a954-b1703b2d4e2a",
+            "Value": {
+                "id": "8aa15c24-44ba-4ce3-b82f-2e26250dc0e5",
+                "resourcePath": "sprites\\spr_traps_sheet_original\\spr_traps_sheet_original.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0f8d8159-279d-43bd-ab45-61bacd943843",
             "Value": {
                 "id": "28acf3ed-8527-4b59-aed1-3d642180e44d",
@@ -219,6 +227,14 @@
             "Value": {
                 "id": "3da04407-08d2-4faf-9c6b-2d98decb03fc",
                 "resourcePath": "objects\\TurretBullet\\TurretBullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "32e347a0-e87c-4493-9e74-306cefbf1708",
+            "Value": {
+                "id": "157bb62f-623c-4747-b969-667a9034dae2",
+                "resourcePath": "objects\\object15\\object15.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -503,6 +519,14 @@
             }
         },
         {
+            "Key": "ab38acea-fe41-47b3-924b-4319461be5f8",
+            "Value": {
+                "id": "4f26033c-df25-4d0c-b7b0-a0356ae8a1f1",
+                "resourcePath": "views\\ab38acea-fe41-47b3-924b-4319461be5f8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "abe44cbc-1270-4bc2-9e66-aa5878ea698a",
             "Value": {
                 "id": "f1a769ad-e0c0-4e4d-882a-a643063cabd9",
@@ -687,6 +711,14 @@
             }
         },
         {
+            "Key": "dfe46a4d-3084-4cd9-831a-9982293494c7",
+            "Value": {
+                "id": "c6389b9b-c885-4e8f-9a3c-84b6526e169f",
+                "resourcePath": "views\\dfe46a4d-3084-4cd9-831a-9982293494c7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e7c178fd-e609-40a4-a89d-f9ec27f7c59d",
             "Value": {
                 "id": "d634eacb-0f14-4e8b-b894-1a262f9346b5",
@@ -708,6 +740,14 @@
                 "id": "2a1cfcff-6aff-4802-b622-dd61b5bec7ff",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f6b7cb5e-7dbe-4d18-a7d2-f70e002a2c99",
+            "Value": {
+                "id": "67e0e2b4-68d0-43f8-b39e-faaa5adc3588",
+                "resourcePath": "sprites\\spr_traps_sheet_dark\\spr_traps_sheet_dark.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
