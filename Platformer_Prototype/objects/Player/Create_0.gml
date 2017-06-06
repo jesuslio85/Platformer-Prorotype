@@ -24,3 +24,6 @@ state = move_state;
 bullet_cooldown = room_speed/3;
 alarm[0] = bullet_cooldown;
 
+//create audio emitter
+audio_em = audio_emitter_create();
+

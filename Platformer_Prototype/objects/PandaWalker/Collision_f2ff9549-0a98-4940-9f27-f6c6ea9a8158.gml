@@ -1,4 +1,4 @@
-spr/// @description take damage from bullet
+/// @description take damage from bullet
 panda_health -= 2;
 
 
