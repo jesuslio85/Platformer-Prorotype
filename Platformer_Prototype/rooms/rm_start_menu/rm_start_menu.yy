@@ -9,7 +9,7 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        
+        "9a523173-d794-41cb-8c57-061fd577c790"
     ],
     "layers": [
         {
@@ -35,7 +35,30 @@
             "userdefined_depth": false,
             "visible": true,
             "instances": [
-                
+                {
+                    "id": "9a523173-d794-41cb-8c57-061fd577c790",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_48EC71E",
+                    "x": 0,
+                    "y": 704,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_48EC71E",
+                    "objId": "036844ed-d3df-4e78-a6ed-379b2c3924c7",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                }
             ]
         },
         {
@@ -111,16 +134,16 @@
             "modelName": "GMRView",
             "mvc": "1.0",
             "hborder": 480,
-            "hport": 1080,
+            "hport": 720,
             "hspeed": -1,
-            "hview": 240,
+            "hview": 720,
             "inherit": false,
-            "objId": "c2b7c343-467c-4e8e-94bc-afeb2f24dc61",
+            "objId": "00000000-0000-0000-0000-000000000000",
             "vborder": 270,
             "visible": true,
             "vspeed": -1,
-            "wport": 1920,
-            "wview": 429,
+            "wport": 1280,
+            "wview": 1280,
             "xport": 0,
             "xview": 0,
             "yport": 0,
