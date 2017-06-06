@@ -17,4 +17,5 @@ if (hspd == 0 && vspd == 0) {
 // death or room restart
 if PlayerStats.hp <= 0 {
 	room_restart();
+	PlayerStats.hp = PlayerStats.maxhp;
 }
