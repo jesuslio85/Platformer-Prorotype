@@ -1,5 +1,5 @@
 /// @description collide with turret bullet
-if (instance_exists(PlayerStats)) {
-	PlayerStats.hp -=1;
-	show_debug_message(PlayerStats.hp);
-}
+
+PlayerStats.hp -=1;
+state = hurt_state;
+show_debug_message(PlayerStats.hp);
