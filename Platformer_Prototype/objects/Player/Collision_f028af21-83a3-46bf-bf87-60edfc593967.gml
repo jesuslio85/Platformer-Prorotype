@@ -17,8 +17,6 @@ if (above_enemy && (falling)) {
 	// Kill the enemy
 	with (other) {
 		panda_health -=1;
-		// TODO: remove debug message
-		show_debug_message(panda_health)
 	}
 	
 	// bounce off the enemy
