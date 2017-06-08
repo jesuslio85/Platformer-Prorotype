@@ -2,7 +2,7 @@
     "id": "32e347a0-e87c-4493-9e74-306cefbf1708",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "object15",
+    "name": "SpinningTrap",
     "eventList": [
         {
             "id": "02e2da5f-ec8f-4d45-9e20-c9ab51314dfa",
@@ -16,7 +16,7 @@
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "0f8d8159-279d-43bd-ab45-61bacd943843",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
