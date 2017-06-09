@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "256043bc-e547-49d3-b728-c160f53c6daa",
+            "Value": {
+                "id": "8a613615-dac6-4cd6-86a3-949517a37e1c",
+                "resourcePath": "objects\\WallJump\\WallJump.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "29c4ff8e-02bf-487d-a26d-d5bfb323dce2",
             "Value": {
                 "id": "4b197247-c818-4445-a181-e3b587f125eb",
@@ -420,6 +428,14 @@
                 "id": "0f5f7eef-d1b1-4be3-a39f-4a4b48f4a844",
                 "resourcePath": "scripts\\move_after_damage\\move_after_damage.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "80c4d903-90e0-4f0f-b3d0-1b8e21c7da46",
+            "Value": {
+                "id": "38f556fd-81b8-41c0-9045-abc827ea821d",
+                "resourcePath": "sprites\\spr_wall_jump\\spr_wall_jump.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

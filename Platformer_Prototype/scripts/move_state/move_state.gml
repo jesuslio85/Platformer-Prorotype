@@ -8,12 +8,28 @@ if (right || left) {
 } else {
 	hspd = 0;
 }
+
 // if we are not on the ground, let's fall
 if (!place_meeting(x, y+1, Solid)){
 	vspd += grav;
-} else {
-	//if we are on the ground, let's jump
+}  else {
+	// if we are on the ground or 
 	if (up) {
+		vspd -= jumpspd;
+	}
+}
+
+// jump off the right wall
+if (place_meeting(x+1, y, WallJump)) {
+	vspd = 1;
+	if (left && !right) {
+		vspd -= jumpspd;
+	}
+}
+// jump off the left wall
+if (place_meeting(x-1, y, WallJump)) {
+	vspd = 1;
+	if (right && !left) {
 		vspd -= jumpspd;
 	}
 }
@@ -25,11 +41,4 @@ if (hspd != 0) {
 
 move();
 
-// check for landing, not even sure what this does
-// TODO: check to see if needed
-if (place_meeting(x, y+1, Solid)) && (!place_meeting(x, yprevious+1, Solid)) {
-	// this might not be working
-	x_scale = image_xscale * 1.4;
-	y_scale = image_yscale * .8;
-}
 
