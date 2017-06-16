@@ -623,6 +623,14 @@
             }
         },
         {
+            "Key": "bc83201e-4555-494b-9074-8d7606d016c4",
+            "Value": {
+                "id": "1a1a258e-2447-4d7c-a89b-acbdd4557565",
+                "resourcePath": "objects\\GamePaused\\GamePaused.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bf1f88bb-d025-46a0-ae2f-9aca9405c92d",
             "Value": {
                 "id": "8439d756-e94c-412e-a62a-2eba4bb20a42",
