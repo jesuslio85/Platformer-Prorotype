@@ -7,3 +7,4 @@ if (game_is_paused == false && keyboard_check_pressed(ord("P"))) {
 	instance_activate_all();
 	game_is_paused = false;
 }
+
