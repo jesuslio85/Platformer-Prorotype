@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "5b5b7bd1-fe90-45e3-9402-b128dff5c5b0",
+            "Value": {
+                "id": "446091ff-b949-406e-bc5e-fad293c1307b",
+                "resourcePath": "fonts\\fnt_pause\\fnt_pause.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "5cfa7c25-ba81-444d-b653-67b3af0a3fd4",
             "Value": {
                 "id": "2da414f2-5bd7-4a12-8638-8aaba9e77f1b",
