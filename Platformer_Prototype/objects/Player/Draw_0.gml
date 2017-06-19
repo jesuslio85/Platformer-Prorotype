@@ -8,14 +8,13 @@ if (mouse_x < x) {
 }
 //draw the player
 if (hspd == 0) {
-	draw_self();
 	sprite_index = spr_player_idle;
 	image_xscale = x_scale;
 } else {
-	draw_self();
 	sprite_index = spr_player_walk;
 	image_xscale = x_scale;
 }
+draw_self();
 
 if (mouse_check_button(mb_left)) {
 	/// draw the gun
