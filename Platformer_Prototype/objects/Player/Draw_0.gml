@@ -6,8 +6,16 @@ var x_scale = 1;
 if (mouse_x < x) {
 	x_scale = -1;
 }
-// draw the player
-draw_sprite_ext(spr_player_idle, 0, x, y, x_scale, 1, 0, image_blend, image_alpha);
+//draw the player
+if (hspd == 0) {
+	draw_self();
+	sprite_index = spr_player_idle;
+	image_xscale = x_scale;
+} else {
+	draw_self();
+	sprite_index = spr_player_walk;
+	image_xscale = x_scale;
+}
 
 if (mouse_check_button(mb_left)) {
 	/// draw the gun

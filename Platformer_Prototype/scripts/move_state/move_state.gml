@@ -9,6 +9,7 @@ if (right || left) {
 	hspd = 0;
 }
 
+
 // if we are not on the ground, let's fall
 if (!place_meeting(x, y+1, Solid)){
 	vspd += grav;
@@ -34,10 +35,6 @@ if (place_meeting(x-1, y, WallJump)) {
 	}
 }
 
-// flip the imge if left or right
-if (hspd != 0) {
-	image_xscale = sign(hspd);
-}
 
 move();
 

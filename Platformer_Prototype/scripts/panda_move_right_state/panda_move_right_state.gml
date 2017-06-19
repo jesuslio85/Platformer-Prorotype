@@ -13,3 +13,4 @@ image_xscale = 1;
 
 // Move the panda
 x += .75;
+
