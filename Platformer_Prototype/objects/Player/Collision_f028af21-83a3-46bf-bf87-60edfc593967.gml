@@ -14,7 +14,7 @@ if (above_enemy && (falling)) {
 		y++;
 	}
 	
-	// Kill the enemy
+	// damage the enemy
 	with (other) {
 		panda_health -=1;
 	}
