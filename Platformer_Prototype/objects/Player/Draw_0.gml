@@ -22,10 +22,11 @@ if (hspd == 0) {
 	} else {
 		image_xscale = x_scale;
 	}
-} else {
-	sprite_index = spr_player_walk;
-	image_xscale = x_scale;
-}
+} //else {
+	// TODO: replace with spr_player_walk when you have it
+	//sprite_index = spr_player_walk;
+	//image_xscale = x_scale;
+//}
 draw_self();
 
 if (mouse_check_button(mb_left)) {

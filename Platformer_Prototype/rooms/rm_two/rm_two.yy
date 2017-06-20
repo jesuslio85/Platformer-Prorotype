@@ -3469,8 +3469,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_1D112F4D",
-                    "x": 48,
-                    "y": 608,
+                    "x": 1472,
+                    "y": 480,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
