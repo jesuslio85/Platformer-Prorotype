@@ -727,6 +727,14 @@
             }
         },
         {
+            "Key": "ce4e3751-92f1-44db-a732-959e16a0c720",
+            "Value": {
+                "id": "ad9786cc-e5f0-4c29-a3e3-4d4867c61b11",
+                "resourcePath": "objects\\BulletMain\\BulletMain.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ce538982-e47d-41a1-97e8-11770facf29c",
             "Value": {
                 "id": "a2a48f40-0e3f-4aa9-84ba-6899a8dd9247",
