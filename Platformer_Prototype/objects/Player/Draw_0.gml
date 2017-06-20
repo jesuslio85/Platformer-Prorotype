@@ -9,7 +9,14 @@ if (mouse_x < x) {
 //draw the player
 if (hspd == 0) {
 	sprite_index = spr_player_idle;
-	image_xscale = x_scale;
+	// face wall jump walls if colliding with them, otherwise just face mouse direction
+	if (place_meeting(x+1, y, WallJump)) {
+		image_xscale = 1;
+	} else if (place_meeting(x-1, y, WallJump)) {
+		image_xscale = -1;
+	} else {
+		image_xscale = x_scale;
+	}
 } else {
 	sprite_index = spr_player_walk;
 	image_xscale = x_scale;
