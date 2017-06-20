@@ -7,7 +7,8 @@
         "cc759995-24b8-43f7-a9b2-3075cba24457",
         "8ccd1dc5-4042-4ae1-a220-1eeee752506a",
         "037a03fe-a222-45e7-8953-98e658acbb63",
-        "6e18e4aa-b87a-4bf2-9ac4-7351cb9cca9e"
+        "6e18e4aa-b87a-4bf2-9ac4-7351cb9cca9e",
+        "3870696e-9fc8-48a1-a746-8b409f133263"
     ],
     "filterType": "GMSprite",
     "folderName": "Player Weapons",
